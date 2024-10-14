@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "irishweather"
+version = "0.0.1"
+description = "Irish Weather Info"
+authors = ["Vitor Goulart <vitorgoulart@Vitors-MacBook-Air.local>"]
+readme = "README.md"
+license = "LICENSE"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+strawberry-graphql = "^0.243.1"
+fastapi = "^0.93.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
